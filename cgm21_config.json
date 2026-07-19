@@ -1,0 +1,57 @@
+{
+  "notes": [
+    "Units are millimetres except Bodymass in kg.",
+    "Edit these values before processing if the C3D metadata does not contain subject anthropometrics.",
+    "Original-first workflow: pyCGM2 marker/force filters are off by default because forcePlateFiltering can rescale local force-platform analog channels."
+  ],
+  "markerDiameter": 14.0,
+  "leftFlatFoot": false,
+  "rightFlatFoot": false,
+  "headFlat": false,
+  "momentProjection": "Distal",
+  "translators": {
+    "LTOE": "LLA_TOE",
+    "RTOE": "RLA_TOE",
+    "LPSI": "SACR",
+    "RPSI": "SACR"
+  },
+  "required_mp": {
+    "Bodymass": 0.0,
+    "LeftLegLength": 0.0,
+    "RightLegLength": 0.0,
+    "LeftKneeWidth": 0.0,
+    "RightKneeWidth": 0.0,
+    "LeftAnkleWidth": 0.0,
+    "RightAnkleWidth": 0.0,
+    "LeftSoleDelta": 0.0,
+    "RightSoleDelta": 0.0,
+    "LeftShoulderOffset": 0.0,
+    "LeftElbowWidth": 0.0,
+    "LeftWristWidth": 0.0,
+    "LeftHandThickness": 0.0,
+    "RightShoulderOffset": 0.0,
+    "RightElbowWidth": 0.0,
+    "RightWristWidth": 0.0,
+    "RightHandThickness": 0.0
+  },
+  "optional_mp": {
+    "InterAsisDistance": 0.0,
+    "LeftAsisTrocanterDistance": 0.0,
+    "LeftTibialTorsion": 0.0,
+    "LeftThighRotation": 0.0,
+    "LeftShankRotation": 0.0,
+    "RightAsisTrocanterDistance": 0.0,
+    "RightTibialTorsion": 0.0,
+    "RightThighRotation": 0.0,
+    "RightShankRotation": 0.0
+  },
+  "filters": {
+    "markerCutoffHz": 6.0,
+    "markerOrder": 4,
+    "forcePlateCutoffHz": 6.0,
+    "forcePlateOrder": 4
+  },
+  "forcePlateAssignment": "AUTO",
+  "exportMokkaReviewFiles": false,
+  "applyFilters": false
+}

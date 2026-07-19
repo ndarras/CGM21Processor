@@ -1,0 +1,24 @@
+# Local data and generated outputs
+C3D_Data/
+processed/
+processed_*/
+
+# Build/distribution artifacts
+build/
+dist/
+*.zip
+*.7z
+*.exe
+
+# Downloaded/vendor source archives
+downloads/
+pycgm2_local/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local runtime files
+.matplotlib/
+*.log
