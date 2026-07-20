@@ -11,6 +11,10 @@ Windows interface for processing CGM2.1 C3D folders with pyCGM2.
 - Processes dynamic trials into a `processed` folder.
 - Shows processing progress and log output in the interface.
 
+## Installation manual
+
+For detailed Windows 11 download, installation, setup, and troubleshooting instructions, see [INSTALLATION_MANUAL.md](INSTALLATION_MANUAL.md).
+
 ## Windows installation
 
 Download the release zip from GitHub, unzip it, then either:
@@ -29,3 +33,4 @@ C:\Users\darra\miniconda3\envs\pycgm310\python.exe -m PyInstaller --noconfirm --
 ```
 
 The generated Windows package is created from `dist\CGM21Processor`.
+
